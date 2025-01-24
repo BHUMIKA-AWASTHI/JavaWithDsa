@@ -4,7 +4,9 @@ public class basicSyntax {
     public static void main(String[] args) {
         int x=5;
 
-     int[] arr = new int[5];
+     int[] arr; // declaration
+        arr = new int[5]; // memory allocation
+
      //initializing individual elements
      arr[0]=10;
      arr[1]=20;
