@@ -1,4 +1,4 @@
-package arrays;
+package arrays.reverse;
 
 import java.util.Arrays;
 

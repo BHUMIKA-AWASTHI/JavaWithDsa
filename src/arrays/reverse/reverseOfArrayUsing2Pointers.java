@@ -1,4 +1,4 @@
-package arrays;
+package arrays.reverse;
 
 public class reverseOfArrayUsing2Pointers {
     public static void main(String[] args) {
