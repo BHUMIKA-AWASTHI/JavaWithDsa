@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="sort the arrays of 0s &amp; 1s &amp; 2s">
-      <change afterPath="$PROJECT_DIR$/src/arrays/merge2sortedArrays.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="merging of 2 sorted arrays">
+      <change afterPath="$PROJECT_DIR$/src/arrays/nextGreatestElement/bruteForceApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/nextGreatestElement/method2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +85,7 @@
     "Application.maxInArray.executor": "Run",
     "Application.merge2sortedArrays.executor": "Run",
     "Application.method1.executor": "Run",
+    "Application.nextGreatestElement.executor": "Run",
     "Application.numberBridge.executor": "Run",
     "Application.numberPyramidPalindrome.executor": "Run",
     "Application.numberSpiral.executor": "Run",
@@ -138,7 +141,20 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.merge2sortedArrays">
+  <component name="RunManager" selected="Application.method2">
+    <configuration name="bruteForceApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.nextGreatestElement.bruteForceApproach" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dutchFlagAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.sort0s1sAnd2s.dutchFlagAlgorithm" />
       <module name="JavaInOneShot" />
@@ -157,7 +173,7 @@
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,25 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="onePassSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.sort0sAnd1s.onePassSolution" />
+    <configuration name="method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.nextGreatestElement.method2" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.sort0sAnd1s.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sort0sAnd1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.sort0sAnd1s.sort0sAnd1s" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.reverse.*" />
+          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.method2" />
+        <item itemvalue="Application.bruteForceApproach" />
         <item itemvalue="Application.merge2sortedArrays" />
         <item itemvalue="Application.dutchFlagAlgorithm" />
         <item itemvalue="Application.method1" />
-        <item itemvalue="Application.sort0sAnd1s" />
-        <item itemvalue="Application.onePassSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739106086612</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="merging of 2 sorted arrays">
+      <option name="closed" value="true" />
+      <created>1739196467323</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739196467323</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -434,7 +445,8 @@
     <MESSAGE value="reverse of the array" />
     <MESSAGE value="sort the arrays of 0s &amp; 1s" />
     <MESSAGE value="sort the arrays of 0s &amp; 1s &amp; 2s" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort the arrays of 0s &amp; 1s &amp; 2s" />
+    <MESSAGE value="merging of 2 sorted arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="merging of 2 sorted arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
