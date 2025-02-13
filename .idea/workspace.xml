@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="merging of 2 sorted arrays">
-      <change afterPath="$PROJECT_DIR$/src/arrays/practiceQues/productOfElements.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="array product">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/basicDeclaration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,97 +51,99 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.absoluteNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.alphabetSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.alphabetTriangleVerticallyFlipped.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrayListsAdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ascii.executor&quot;: &quot;Run&quot;,
-    &quot;Application.basicSyntax.executor&quot;: &quot;Run&quot;,
-    &quot;Application.basicsOfArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.basicsOfLoops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.binaryTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.builtInMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.compositeNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.copyOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.countDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dutchFlagAlgorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.evenNumFrom1to100.executor&quot;: &quot;Run&quot;,
-    &quot;Application.evenOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.fiveOrThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.floydTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.greatestOf3Nested.executor&quot;: &quot;Run&quot;,
-    &quot;Application.greatestOf3num.executor&quot;: &quot;Run&quot;,
-    &quot;Application.helloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.howLoopWorks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.initialiseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inputClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.linearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.marks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.maxInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.merge2sortedArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.method1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.method2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nextGreatestElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numberBridge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numberPyramidPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numberSpiral.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numberSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numberTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numberTriangleVerticallyFlipped.executor&quot;: &quot;Run&quot;,
-    &quot;Application.oddNumTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.oddNumbersPrint.executor&quot;: &quot;Run&quot;,
-    &quot;Application.onePassSolution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.outputOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.passingArrayToMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.print1toN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.profitLoss.executor&quot;: &quot;Run&quot;,
-    &quot;Application.reverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.reverseOfArrayUsing2Pointers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.rhombus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.rollNo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sort0sAnd1s.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starBridge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starCross.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starDiamond.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starPlus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starPyramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starPyramidMethod2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starRectangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starTriangleFlipped.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starTriangleHorizontallyFlipped.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starTriangleVerticallyFlipped.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starTriangleVerticallyFlippedAlternate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.starTriangleVerticallyFlippedComposite.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sumOf2num.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sumOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sumOfDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.switchStatement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.table.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tableOfN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ternary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.threeDigitNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.twoSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.updatingVariables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.variables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.whileLoop.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/JavaInOneShot&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/JavaInOneShot/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GP.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.absoluteNum.executor": "Run",
+    "Application.alphabetSquare.executor": "Run",
+    "Application.alphabetTriangleVerticallyFlipped.executor": "Run",
+    "Application.arrayListsAdd.executor": "Run",
+    "Application.arrayProduct.executor": "Run",
+    "Application.ascii.executor": "Run",
+    "Application.basicDeclaration.executor": "Run",
+    "Application.basicSyntax.executor": "Run",
+    "Application.basicsOfArrayList.executor": "Run",
+    "Application.basicsOfLoops.executor": "Run",
+    "Application.binaryTriangle.executor": "Run",
+    "Application.builtInMethods.executor": "Run",
+    "Application.compositeNum.executor": "Run",
+    "Application.copyOfArray.executor": "Run",
+    "Application.countDigits.executor": "Run",
+    "Application.dutchFlagAlgorithm.executor": "Run",
+    "Application.evenNumFrom1to100.executor": "Run",
+    "Application.evenOdd.executor": "Run",
+    "Application.fiveOrThree.executor": "Run",
+    "Application.floydTriangle.executor": "Run",
+    "Application.greatestOf3Nested.executor": "Run",
+    "Application.greatestOf3num.executor": "Run",
+    "Application.helloWorld.executor": "Run",
+    "Application.howLoopWorks.executor": "Run",
+    "Application.initialiseArray.executor": "Run",
+    "Application.inputClass.executor": "Run",
+    "Application.linearSearch.executor": "Run",
+    "Application.marks.executor": "Run",
+    "Application.maxInArray.executor": "Run",
+    "Application.merge2sortedArrays.executor": "Run",
+    "Application.method1.executor": "Run",
+    "Application.method2.executor": "Run",
+    "Application.nextGreatestElement.executor": "Run",
+    "Application.numberBridge.executor": "Run",
+    "Application.numberPyramidPalindrome.executor": "Run",
+    "Application.numberSpiral.executor": "Run",
+    "Application.numberSquare.executor": "Run",
+    "Application.numberTriangle.executor": "Run",
+    "Application.numberTriangleVerticallyFlipped.executor": "Run",
+    "Application.oddNumTriangle.executor": "Run",
+    "Application.oddNumbersPrint.executor": "Run",
+    "Application.onePassSolution.executor": "Run",
+    "Application.outputOfArray.executor": "Run",
+    "Application.passingArrayToMethods.executor": "Run",
+    "Application.print1toN.executor": "Run",
+    "Application.profitLoss.executor": "Run",
+    "Application.reverseArray.executor": "Run",
+    "Application.reverseOfArrayUsing2Pointers.executor": "Run",
+    "Application.rhombus.executor": "Run",
+    "Application.rollNo.executor": "Run",
+    "Application.sort0sAnd1s.executor": "Run",
+    "Application.starBridge.executor": "Run",
+    "Application.starCross.executor": "Run",
+    "Application.starDiamond.executor": "Run",
+    "Application.starPlus.executor": "Run",
+    "Application.starPyramid.executor": "Run",
+    "Application.starPyramidMethod2.executor": "Run",
+    "Application.starRectangle.executor": "Run",
+    "Application.starSquare.executor": "Run",
+    "Application.starTriangle.executor": "Run",
+    "Application.starTriangleFlipped.executor": "Run",
+    "Application.starTriangleHorizontallyFlipped.executor": "Run",
+    "Application.starTriangleVerticallyFlipped.executor": "Run",
+    "Application.starTriangleVerticallyFlippedAlternate.executor": "Run",
+    "Application.starTriangleVerticallyFlippedComposite.executor": "Run",
+    "Application.sumOf2num.executor": "Run",
+    "Application.sumOfArray.executor": "Run",
+    "Application.sumOfDigits.executor": "Run",
+    "Application.switchStatement.executor": "Run",
+    "Application.table.executor": "Run",
+    "Application.tableOfN.executor": "Run",
+    "Application.ternary.executor": "Run",
+    "Application.threeDigitNum.executor": "Run",
+    "Application.triangle.executor": "Run",
+    "Application.twoSum.executor": "Run",
+    "Application.updatingVariables.executor": "Run",
+    "Application.variables.executor": "Run",
+    "Application.whileLoop.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/JavaInOneShot",
+    "onboarding.tips.debug.path": "E:/JavaInOneShot/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.arrayProduct">
+}]]></component>
+  <component name="RunManager" selected="Application.basicDeclaration">
     <configuration name="arrayProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.practiceQues.arrayProduct" />
       <module name="JavaInOneShot" />
@@ -155,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bruteForceApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.nextGreatestElement.bruteForceApproach" />
+    <configuration name="basicDeclaration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.basicDeclaration" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
+          <option name="PATTERN" value="twoDimensionalArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dutchFlagAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.sort0s1sAnd2s.dutchFlagAlgorithm" />
+    <configuration name="bruteForceApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.nextGreatestElement.bruteForceApproach" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.sort0s1sAnd2s.*" />
+          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.basicDeclaration" />
         <item itemvalue="Application.arrayProduct" />
         <item itemvalue="Application.method2" />
         <item itemvalue="Application.bruteForceApproach" />
         <item itemvalue="Application.merge2sortedArrays" />
-        <item itemvalue="Application.dutchFlagAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739196467323</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="array product">
+      <option name="closed" value="true" />
+      <created>1739267513774</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739267513774</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,7 +456,8 @@
     <MESSAGE value="sort the arrays of 0s &amp; 1s" />
     <MESSAGE value="sort the arrays of 0s &amp; 1s &amp; 2s" />
     <MESSAGE value="merging of 2 sorted arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="merging of 2 sorted arrays" />
+    <MESSAGE value="array product" />
+    <option name="LAST_COMMIT_MESSAGE" value="array product" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
