@@ -1,6 +1,6 @@
 package twoDimensionalArray;
 
-public class transformIntoTranspose {
+public class rotateMatrixBy90DegreeClockwise {
 
     // creating print function
     public static void print(int[][] arr){
@@ -13,8 +13,6 @@ public class transformIntoTranspose {
         }
         System.out.println();
     }
-
-    // program to print the transpose
 
     public static void main(String[] args) {
         int[][] arr= {{1,2,3},{4,5,6},{7,8,9}};
@@ -29,5 +27,18 @@ public class transformIntoTranspose {
 
         }print(arr);
 
+        //rotate-> reverse each row
+        for (int i = 0; i <m ; i++) {
+                int a=0, b=m-1;
+                while(a<b) {
+                    //swap arr[i][a] and arr[i][b]
+                    int temp = arr[i][a];
+                    arr[i][a] = arr[i][b];
+                    arr[i][b] = temp;
+                    a++;
+                    b--;
+                }
+        }
+        print(arr);
     }
 }
