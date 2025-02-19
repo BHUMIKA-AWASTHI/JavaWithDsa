@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="traversals through 2d arrays">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/forEach.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="array of arrays and initialisation of 2d array">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/storeMarksAndRollNo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -422,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739939983389</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="array of arrays and initialisation of 2d array">
+      <option name="closed" value="true" />
+      <created>1739943479584</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1739943479584</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,7 +481,8 @@
     <MESSAGE value="merging of 2 sorted arrays" />
     <MESSAGE value="array product" />
     <MESSAGE value="traversals through 2d arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="traversals through 2d arrays" />
+    <MESSAGE value="array of arrays and initialisation of 2d array" />
+    <option name="LAST_COMMIT_MESSAGE" value="array of arrays and initialisation of 2d array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
