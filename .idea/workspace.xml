@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="array product">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/outputUsingNestedLoops.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="traversals through 2d arrays">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/forEach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "Application.evenOdd.executor": "Run",
     "Application.fiveOrThree.executor": "Run",
     "Application.floydTriangle.executor": "Run",
+    "Application.forEach.executor": "Run",
     "Application.greatestOf3Nested.executor": "Run",
     "Application.greatestOf3num.executor": "Run",
     "Application.helloWorld.executor": "Run",
@@ -144,7 +145,7 @@
     "settings.editor.selected.configurable": "trusted.hosts"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.outputUsingNestedLoops">
+  <component name="RunManager" selected="Application.forEach">
     <configuration name="alphabetTriangleVerticallyFlipped" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern_printing.compositePatterns.alphabetTriangleVerticallyFlipped" />
       <module name="JavaInOneShot" />
@@ -184,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.nextGreatestElement.method2" />
+    <configuration name="forEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.forEach" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
+          <option name="PATTERN" value="twoDimensionalArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.forEach" />
         <item itemvalue="Application.outputUsingNestedLoops" />
         <item itemvalue="Application.alphabetTriangleVerticallyFlipped" />
         <item itemvalue="Application.basicDeclaration" />
         <item itemvalue="Application.arrayProduct" />
-        <item itemvalue="Application.method2" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739267513774</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="traversals through 2d arrays">
+      <option name="closed" value="true" />
+      <created>1739939983389</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1739939983389</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +430,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -451,7 +472,8 @@
     <MESSAGE value="sort the arrays of 0s &amp; 1s &amp; 2s" />
     <MESSAGE value="merging of 2 sorted arrays" />
     <MESSAGE value="array product" />
-    <option name="LAST_COMMIT_MESSAGE" value="array product" />
+    <MESSAGE value="traversals through 2d arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="traversals through 2d arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
