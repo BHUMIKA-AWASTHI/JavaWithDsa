@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="printing the transpose of matrix">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/rotateMatrixBy90DegreeClockwise.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="matrix rotation by 90° clockwise">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/wavePrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twoDimensionalArray/transformIntoTranspose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoDimensionalArray/transformIntoTranspose.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +138,7 @@
     "Application.twoSum.executor": "Run",
     "Application.updatingVariables.executor": "Run",
     "Application.variables.executor": "Run",
+    "Application.wavePrint.executor": "Run",
     "Application.whileLoop.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -152,7 +152,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.rotateMatrixBy90DegreeClockwise">
+  <component name="RunManager" selected="Application.wavePrint">
     <configuration name="add2Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.add2Matrices" />
       <module name="JavaInOneShot" />
@@ -192,19 +192,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sumOf2dArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.sumOf2dArray" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twoDimensionalArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="transformIntoTranspose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.transformIntoTranspose" />
       <module name="JavaInOneShot" />
@@ -218,13 +205,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wavePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.wavePrint" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDimensionalArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.rotateMatrixBy90DegreeClockwise" />
+        <item itemvalue="Application.wavePrint" />
         <item itemvalue="Application.transformIntoTranspose" />
+        <item itemvalue="Application.rotateMatrixBy90DegreeClockwise" />
         <item itemvalue="Application.rowWiseAndColumnWisePrinting" />
         <item itemvalue="Application.add2Matrices" />
-        <item itemvalue="Application.sumOf2dArray" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739963414865</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="matrix rotation by 90° clockwise">
+      <option name="closed" value="true" />
+      <created>1739980017229</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980017229</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="composite patterns" />
     <MESSAGE value="number pyramid palindrome and star bridge" />
     <MESSAGE value="number bridge" />
     <MESSAGE value="star diamond" />
@@ -529,7 +536,8 @@
     <MESSAGE value="sum of elements in 2d array" />
     <MESSAGE value="adding 2 matrices" />
     <MESSAGE value="printing the transpose of matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="printing the transpose of matrix" />
+    <MESSAGE value="matrix rotation by 90° clockwise" />
+    <option name="LAST_COMMIT_MESSAGE" value="matrix rotation by 90° clockwise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
