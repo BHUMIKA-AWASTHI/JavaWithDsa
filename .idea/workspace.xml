@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="array product">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/basicDeclaration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/outputUsingNestedLoops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +29,12 @@
     &quot;assignee&quot;: &quot;BHUMIKA-AWASTHI&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="833c9308-ab12-451b-a404-9817c12f5845" />
-        <option name="url" value="https://github.com/BHUMIKA-AWASTHI/JavaWithDsa.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BHUMIKA-AWASTHI/JavaWithDsa.git&quot;,
+    &quot;accountId&quot;: &quot;04279f44-3d85-4fa6-9123-37754b842a26&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -98,6 +96,7 @@
     "Application.oddNumbersPrint.executor": "Run",
     "Application.onePassSolution.executor": "Run",
     "Application.outputOfArray.executor": "Run",
+    "Application.outputUsingNestedLoops.executor": "Run",
     "Application.passingArrayToMethods.executor": "Run",
     "Application.print1toN.executor": "Run",
     "Application.profitLoss.executor": "Run",
@@ -135,15 +134,30 @@
     "Application.whileLoop.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JavaInOneShot",
+    "last_opened_file_path": "C:/Users/Acer/.jdks",
     "onboarding.tips.debug.path": "E:/JavaInOneShot/src/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "trusted.hosts"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.basicDeclaration">
+  <component name="RunManager" selected="Application.outputUsingNestedLoops">
+    <configuration name="alphabetTriangleVerticallyFlipped" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern_printing.compositePatterns.alphabetTriangleVerticallyFlipped" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern_printing.compositePatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="arrayProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.practiceQues.arrayProduct" />
       <module name="JavaInOneShot" />
@@ -170,32 +184,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bruteForceApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.nextGreatestElement.bruteForceApproach" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="merge2sortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.merge2sortedArrays" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.nextGreatestElement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.nextGreatestElement.method2" />
       <module name="JavaInOneShot" />
@@ -209,22 +197,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="outputUsingNestedLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.outputUsingNestedLoops" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDimensionalArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.outputUsingNestedLoops" />
+        <item itemvalue="Application.alphabetTriangleVerticallyFlipped" />
         <item itemvalue="Application.basicDeclaration" />
         <item itemvalue="Application.arrayProduct" />
         <item itemvalue="Application.method2" />
-        <item itemvalue="Application.bruteForceApproach" />
-        <item itemvalue="Application.merge2sortedArrays" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
