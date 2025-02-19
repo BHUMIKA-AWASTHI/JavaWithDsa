@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="sum of elements in 2d array">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/add2Matrices.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="adding 2 matrices">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/rowWiseAndColumnWisePrinting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/transformIntoTranspose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,7 @@
     "Application.GP.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.absoluteNum.executor": "Run",
+    "Application.add2Matrices.executor": "Run",
     "Application.alphabetSquare.executor": "Run",
     "Application.alphabetTriangleVerticallyFlipped.executor": "Run",
     "Application.arrayListsAdd.executor": "Run",
@@ -105,6 +108,7 @@
     "Application.reverseOfArrayUsing2Pointers.executor": "Run",
     "Application.rhombus.executor": "Run",
     "Application.rollNo.executor": "Run",
+    "Application.rowWiseAndColumnWisePrinting.executor": "Run",
     "Application.sort0sAnd1s.executor": "Run",
     "Application.starBridge.executor": "Run",
     "Application.starCross.executor": "Run",
@@ -129,6 +133,7 @@
     "Application.tableOfN.executor": "Run",
     "Application.ternary.executor": "Run",
     "Application.threeDigitNum.executor": "Run",
+    "Application.transformIntoTranspose.executor": "Run",
     "Application.triangle.executor": "Run",
     "Application.twoSum.executor": "Run",
     "Application.updatingVariables.executor": "Run",
@@ -143,25 +148,12 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Acer/.jdks",
     "onboarding.tips.debug.path": "E:/JavaInOneShot/src/Main.java",
-    "settings.editor.selected.configurable": "trusted.hosts"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.add2Matrices">
+  <component name="RunManager" selected="Application.transformIntoTranspose">
     <configuration name="add2Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.add2Matrices" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twoDimensionalArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="forEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.forEach" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -186,8 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="outputUsingNestedLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.outputUsingNestedLoops" />
+    <configuration name="rowWiseAndColumnWisePrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.rowWiseAndColumnWisePrinting" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -212,13 +204,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="transformIntoTranspose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.transformIntoTranspose" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDimensionalArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.transformIntoTranspose" />
+        <item itemvalue="Application.rowWiseAndColumnWisePrinting" />
         <item itemvalue="Application.add2Matrices" />
         <item itemvalue="Application.sumOf2dArray" />
         <item itemvalue="Application.maxIn2dArray" />
-        <item itemvalue="Application.forEach" />
-        <item itemvalue="Application.outputUsingNestedLoops" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739945453260</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="adding 2 matrices">
+      <option name="closed" value="true" />
+      <created>1739946122326</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1739946122326</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="binary triangle pattern" />
     <MESSAGE value="star triangle vertically flipped pattern" />
     <MESSAGE value="composite patterns" />
     <MESSAGE value="number pyramid palindrome and star bridge" />
@@ -507,7 +519,8 @@
     <MESSAGE value="store marks and roll no in 2d array" />
     <MESSAGE value="finding largest element in 2d array" />
     <MESSAGE value="sum of elements in 2d array" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum of elements in 2d array" />
+    <MESSAGE value="adding 2 matrices" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding 2 matrices" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
