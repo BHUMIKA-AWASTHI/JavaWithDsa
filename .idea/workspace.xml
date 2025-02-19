@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="array of arrays and initialisation of 2d array">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/storeMarksAndRollNo.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="store marks and roll no in 2d array">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/maxIn2dArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,26 +145,13 @@
     "settings.editor.selected.configurable": "trusted.hosts"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.forEach">
+  <component name="RunManager" selected="Application.maxIn2dArray">
     <configuration name="alphabetTriangleVerticallyFlipped" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern_printing.compositePatterns.alphabetTriangleVerticallyFlipped" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pattern_printing.compositePatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arrayProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.practiceQues.arrayProduct" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.practiceQues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,6 +185,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="maxIn2dArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.maxIn2dArray" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDimensionalArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="outputUsingNestedLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.outputUsingNestedLoops" />
       <module name="JavaInOneShot" />
@@ -213,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maxIn2dArray" />
         <item itemvalue="Application.forEach" />
         <item itemvalue="Application.outputUsingNestedLoops" />
         <item itemvalue="Application.alphabetTriangleVerticallyFlipped" />
         <item itemvalue="Application.basicDeclaration" />
-        <item itemvalue="Application.arrayProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +430,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739943479584</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="store marks and roll no in 2d array">
+      <option name="closed" value="true" />
+      <created>1739944246578</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739944246578</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basics" />
     <MESSAGE value="star plus pattern" />
     <MESSAGE value="star cross pattern" />
     <MESSAGE value="binary triangle pattern" />
@@ -482,7 +489,8 @@
     <MESSAGE value="array product" />
     <MESSAGE value="traversals through 2d arrays" />
     <MESSAGE value="array of arrays and initialisation of 2d array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array of arrays and initialisation of 2d array" />
+    <MESSAGE value="store marks and roll no in 2d array" />
+    <option name="LAST_COMMIT_MESSAGE" value="store marks and roll no in 2d array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
