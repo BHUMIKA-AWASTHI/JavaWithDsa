@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="matrix rotation by 90° clockwise">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/wavePrint.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="print matrix in waveform">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/spiralPrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +110,7 @@
     "Application.rotateMatrixBy90DegreeClockwise.executor": "Run",
     "Application.rowWiseAndColumnWisePrinting.executor": "Run",
     "Application.sort0sAnd1s.executor": "Run",
+    "Application.spiralPrint.executor": "Run",
     "Application.starBridge.executor": "Run",
     "Application.starCross.executor": "Run",
     "Application.starDiamond.executor": "Run",
@@ -152,20 +153,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.wavePrint">
-    <configuration name="add2Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.add2Matrices" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twoDimensionalArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.spiralPrint">
     <configuration name="rotateMatrixBy90DegreeClockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.rotateMatrixBy90DegreeClockwise" />
       <module name="JavaInOneShot" />
@@ -181,6 +169,19 @@
     </configuration>
     <configuration name="rowWiseAndColumnWisePrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.rowWiseAndColumnWisePrinting" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoDimensionalArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spiralPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.spiralPrint" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -220,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.spiralPrint" />
         <item itemvalue="Application.wavePrint" />
         <item itemvalue="Application.transformIntoTranspose" />
         <item itemvalue="Application.rotateMatrixBy90DegreeClockwise" />
         <item itemvalue="Application.rowWiseAndColumnWisePrinting" />
-        <item itemvalue="Application.add2Matrices" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739980017229</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="print matrix in waveform">
+      <option name="closed" value="true" />
+      <created>1739981665629</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1739981665629</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="number pyramid palindrome and star bridge" />
     <MESSAGE value="number bridge" />
     <MESSAGE value="star diamond" />
     <MESSAGE value="number spiral" />
@@ -537,7 +545,8 @@
     <MESSAGE value="adding 2 matrices" />
     <MESSAGE value="printing the transpose of matrix" />
     <MESSAGE value="matrix rotation by 90° clockwise" />
-    <option name="LAST_COMMIT_MESSAGE" value="matrix rotation by 90° clockwise" />
+    <MESSAGE value="print matrix in waveform" />
+    <option name="LAST_COMMIT_MESSAGE" value="print matrix in waveform" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
