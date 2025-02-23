@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="print matrix in waveform">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/spiralPrint.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="spiral form matrix">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/ArrayList2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayList2D.executor": "Run",
     "Application.GP.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.absoluteNum.executor": "Run",
@@ -153,9 +154,9 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.spiralPrint">
-    <configuration name="rotateMatrixBy90DegreeClockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.rotateMatrixBy90DegreeClockwise" />
+  <component name="RunManager" selected="Application.ArrayList2D">
+    <configuration name="ArrayList2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.ArrayList2D" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +168,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rowWiseAndColumnWisePrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.rowWiseAndColumnWisePrinting" />
+    <configuration name="rotateMatrixBy90DegreeClockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.rotateMatrixBy90DegreeClockwise" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -221,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayList2D" />
         <item itemvalue="Application.spiralPrint" />
         <item itemvalue="Application.wavePrint" />
         <item itemvalue="Application.transformIntoTranspose" />
         <item itemvalue="Application.rotateMatrixBy90DegreeClockwise" />
-        <item itemvalue="Application.rowWiseAndColumnWisePrinting" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739981665629</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="spiral form matrix">
+      <option name="closed" value="true" />
+      <created>1740158945640</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1740158945640</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="number bridge" />
     <MESSAGE value="star diamond" />
     <MESSAGE value="number spiral" />
     <MESSAGE value="basics of array" />
@@ -546,7 +554,8 @@
     <MESSAGE value="printing the transpose of matrix" />
     <MESSAGE value="matrix rotation by 90° clockwise" />
     <MESSAGE value="print matrix in waveform" />
-    <option name="LAST_COMMIT_MESSAGE" value="print matrix in waveform" />
+    <MESSAGE value="spiral form matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="spiral form matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
