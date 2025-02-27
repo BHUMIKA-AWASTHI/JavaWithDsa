@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="spiral form matrix">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/ArrayList2D.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="2d arrayList basic stl functions">
+      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/matrixMultiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +84,7 @@
     "Application.inputClass.executor": "Run",
     "Application.linearSearch.executor": "Run",
     "Application.marks.executor": "Run",
+    "Application.matrixMultiplication.executor": "Run",
     "Application.maxIn2dArray.executor": "Run",
     "Application.maxInArray.executor": "Run",
     "Application.merge2sortedArrays.executor": "Run",
@@ -154,7 +155,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayList2D">
+  <component name="RunManager" selected="Application.matrixMultiplication">
     <configuration name="ArrayList2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.ArrayList2D" />
       <module name="JavaInOneShot" />
@@ -168,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rotateMatrixBy90DegreeClockwise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.rotateMatrixBy90DegreeClockwise" />
+    <configuration name="matrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.matrixMultiplication" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -222,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.matrixMultiplication" />
         <item itemvalue="Application.ArrayList2D" />
         <item itemvalue="Application.spiralPrint" />
         <item itemvalue="Application.wavePrint" />
         <item itemvalue="Application.transformIntoTranspose" />
-        <item itemvalue="Application.rotateMatrixBy90DegreeClockwise" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740158945640</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="2d arrayList basic stl functions">
+      <option name="closed" value="true" />
+      <created>1740316687220</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1740316687220</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="star diamond" />
     <MESSAGE value="number spiral" />
     <MESSAGE value="basics of array" />
     <MESSAGE value="basic ques on array" />
@@ -555,7 +563,8 @@
     <MESSAGE value="matrix rotation by 90° clockwise" />
     <MESSAGE value="print matrix in waveform" />
     <MESSAGE value="spiral form matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="spiral form matrix" />
+    <MESSAGE value="2d arrayList basic stl functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="2d arrayList basic stl functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
