@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="2d arrayList basic stl functions">
-      <change afterPath="$PROJECT_DIR$/src/twoDimensionalArray/matrixMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="multiplication of matrix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -512,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740316687220</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="multiplication of matrix">
+      <option name="closed" value="true" />
+      <created>1740676377496</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1740676377496</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="number spiral" />
     <MESSAGE value="basics of array" />
     <MESSAGE value="basic ques on array" />
     <MESSAGE value="linear search" />
@@ -564,7 +568,8 @@
     <MESSAGE value="print matrix in waveform" />
     <MESSAGE value="spiral form matrix" />
     <MESSAGE value="2d arrayList basic stl functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="2d arrayList basic stl functions" />
+    <MESSAGE value="multiplication of matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiplication of matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
