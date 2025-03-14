@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="built in string methods">
-      <change afterPath="$PROJECT_DIR$/src/strings/countVowels.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="counting vowels in a string">
+      <change afterPath="$PROJECT_DIR$/src/strings/indexOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +82,7 @@
     "Application.greatestOf3num.executor": "Run",
     "Application.helloWorld.executor": "Run",
     "Application.howLoopWorks.executor": "Run",
+    "Application.indexOf.executor": "Run",
     "Application.initialiseArray.executor": "Run",
     "Application.inputClass.executor": "Run",
     "Application.inputString.executor": "Run",
@@ -159,7 +160,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.countVowels">
+  <component name="RunManager" selected="Application.indexOf">
     <configuration name="builtInStringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.builtInStringMethods" />
       <module name="JavaInOneShot" />
@@ -186,8 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inputString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.inputString" />
+    <configuration name="indexOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.indexOf" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -199,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="matrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoDimensionalArray.matrixMultiplication" />
+    <configuration name="inputString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.inputString" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoDimensionalArray.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.indexOf" />
         <item itemvalue="Application.countVowels" />
         <item itemvalue="Application.builtInStringMethods" />
         <item itemvalue="Application.inputString" />
         <item itemvalue="Application.whyStrings" />
-        <item itemvalue="Application.matrixMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741958102000</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="counting vowels in a string">
+      <option name="closed" value="true" />
+      <created>1741958788031</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1741958788031</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -575,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="linear search" />
     <MESSAGE value="passing array to methods in java" />
     <MESSAGE value="arraylists in java" />
     <MESSAGE value="basic operations on arraylists" />
@@ -600,7 +608,8 @@
     <MESSAGE value="multiplication of matrix" />
     <MESSAGE value="declaration of strings and taking input" />
     <MESSAGE value="built in string methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="built in string methods" />
+    <MESSAGE value="counting vowels in a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="counting vowels in a string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
