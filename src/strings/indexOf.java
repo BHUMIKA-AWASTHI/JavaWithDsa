@@ -1,5 +1,8 @@
 package strings;
 
+import java.sql.SQLOutput;
+import java.util.SortedMap;
+
 public class indexOf {
     public static void main(String[] args) {
         //indexOf()
@@ -12,5 +15,11 @@ public class indexOf {
         String a = "abc";
         String b= "dbc";
         System.out.println(a.compareTo(b)); // compares the strings lexically
+        System.out.println();
+        //basic functions
+        String c= "Physics wallah";
+        System.out.println(c.contains("hy"));
+        System.out.println(c.startsWith("Ph"));
+        System.out.println(c.endsWith("ah"));
     }
 }

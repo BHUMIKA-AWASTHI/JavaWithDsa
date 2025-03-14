@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="counting vowels in a string">
-      <change afterPath="$PROJECT_DIR$/src/strings/indexOf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="indexOf() and compareTo()">
+      <change beforePath="$PROJECT_DIR$/src/strings/indexOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/indexOf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -557,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741958788031</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="indexOf() and compareTo()">
+      <option name="closed" value="true" />
+      <created>1741959799115</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1741959799115</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="passing array to methods in java" />
     <MESSAGE value="arraylists in java" />
     <MESSAGE value="basic operations on arraylists" />
     <MESSAGE value="two sum question" />
@@ -609,7 +615,8 @@
     <MESSAGE value="declaration of strings and taking input" />
     <MESSAGE value="built in string methods" />
     <MESSAGE value="counting vowels in a string" />
-    <option name="LAST_COMMIT_MESSAGE" value="counting vowels in a string" />
+    <MESSAGE value="indexOf() and compareTo()" />
+    <option name="LAST_COMMIT_MESSAGE" value="indexOf() and compareTo()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
