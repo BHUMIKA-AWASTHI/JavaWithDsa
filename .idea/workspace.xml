@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="basic functions">
-      <change afterPath="$PROJECT_DIR$/src/strings/lowerUpperCase.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="toLowerCase and concat function">
+      <change afterPath="$PROJECT_DIR$/src/strings/substring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/indexOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/indexOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/lowerUpperCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/lowerUpperCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +133,7 @@
     "Application.starTriangleVerticallyFlipped.executor": "Run",
     "Application.starTriangleVerticallyFlippedAlternate.executor": "Run",
     "Application.starTriangleVerticallyFlippedComposite.executor": "Run",
+    "Application.substring.executor": "Run",
     "Application.sumOf2dArray.executor": "Run",
     "Application.sumOf2num.executor": "Run",
     "Application.sumOfArray.executor": "Run",
@@ -162,7 +163,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.lowerUpperCase">
+  <component name="RunManager" selected="Application.substring">
     <configuration name="builtInStringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.builtInStringMethods" />
       <module name="JavaInOneShot" />
@@ -202,19 +203,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inputString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.inputString" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lowerUpperCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.lowerUpperCase" />
       <module name="JavaInOneShot" />
@@ -228,13 +216,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.substring" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.substring" />
         <item itemvalue="Application.lowerUpperCase" />
         <item itemvalue="Application.indexOf" />
         <item itemvalue="Application.countVowels" />
         <item itemvalue="Application.builtInStringMethods" />
-        <item itemvalue="Application.inputString" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741960173076</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="toLowerCase and concat function">
+      <option name="closed" value="true" />
+      <created>1742050359321</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1742050359321</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic operations on arraylists" />
     <MESSAGE value="two sum question" />
     <MESSAGE value="reverse of the array by general method and 2 pointer method" />
     <MESSAGE value="reverse of the array" />
@@ -627,7 +635,8 @@
     <MESSAGE value="counting vowels in a string" />
     <MESSAGE value="indexOf() and compareTo()" />
     <MESSAGE value="basic functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic functions" />
+    <MESSAGE value="toLowerCase and concat function" />
+    <option name="LAST_COMMIT_MESSAGE" value="toLowerCase and concat function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

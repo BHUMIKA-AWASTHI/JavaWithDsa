@@ -14,5 +14,8 @@ public class lowerUpperCase {
         System.out.println(a);
         a= a.concat(b);
         System.out.println(a);
+
+        String x = ""; //empty string
+        System.out.println(x.length());
     }
 }
