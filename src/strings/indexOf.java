@@ -1,7 +1,6 @@
 package strings;
 
-import java.sql.SQLOutput;
-import java.util.SortedMap;
+
 
 public class indexOf {
     public static void main(String[] args) {

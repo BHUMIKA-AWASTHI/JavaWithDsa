@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="indexOf() and compareTo()">
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="basic functions">
+      <change afterPath="$PROJECT_DIR$/src/strings/lowerUpperCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strings/indexOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/indexOf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +88,7 @@
     "Application.inputClass.executor": "Run",
     "Application.inputString.executor": "Run",
     "Application.linearSearch.executor": "Run",
+    "Application.lowerUpperCase.executor": "Run",
     "Application.marks.executor": "Run",
     "Application.matrixMultiplication.executor": "Run",
     "Application.maxIn2dArray.executor": "Run",
@@ -159,7 +162,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.indexOf">
+  <component name="RunManager" selected="Application.lowerUpperCase">
     <configuration name="builtInStringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.builtInStringMethods" />
       <module name="JavaInOneShot" />
@@ -212,8 +215,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.whyStrings" />
+    <configuration name="lowerUpperCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.lowerUpperCase" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -227,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lowerUpperCase" />
         <item itemvalue="Application.indexOf" />
         <item itemvalue="Application.countVowels" />
         <item itemvalue="Application.builtInStringMethods" />
         <item itemvalue="Application.inputString" />
-        <item itemvalue="Application.whyStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741959799115</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="basic functions">
+      <option name="closed" value="true" />
+      <created>1741960173076</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1741960173076</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arraylists in java" />
     <MESSAGE value="basic operations on arraylists" />
     <MESSAGE value="two sum question" />
     <MESSAGE value="reverse of the array by general method and 2 pointer method" />
@@ -616,7 +626,8 @@
     <MESSAGE value="built in string methods" />
     <MESSAGE value="counting vowels in a string" />
     <MESSAGE value="indexOf() and compareTo()" />
-    <option name="LAST_COMMIT_MESSAGE" value="indexOf() and compareTo()" />
+    <MESSAGE value="basic functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
