@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="covert integer input to string" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="total number of digits without using any loop">
+      <change afterPath="$PROJECT_DIR$/src/strings/interning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +87,7 @@
     "Application.initialiseArray.executor": "Run",
     "Application.inputClass.executor": "Run",
     "Application.inputString.executor": "Run",
+    "Application.interning.executor": "Run",
     "Application.linearSearch.executor": "Run",
     "Application.lowerUpperCase.executor": "Run",
     "Application.marks.executor": "Run",
@@ -161,7 +165,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.convertIntToString">
+  <component name="RunManager" selected="Application.interning">
     <configuration name="convertIntToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.convertIntToString" />
       <module name="JavaInOneShot" />
@@ -175,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="indexOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.indexOf" />
+    <configuration name="interning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.interning" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -229,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interning" />
         <item itemvalue="Application.convertIntToString" />
         <item itemvalue="Application.plusOperator" />
         <item itemvalue="Application.substring" />
         <item itemvalue="Application.lowerUpperCase" />
-        <item itemvalue="Application.indexOf" />
       </list>
     </recent_temporary>
   </component>
@@ -622,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742551804293</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="total number of digits without using any loop">
+      <option name="closed" value="true" />
+      <created>1742555259990</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1742555259990</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sort the arrays of 0s &amp; 1s &amp; 2s" />
     <MESSAGE value="merging of 2 sorted arrays" />
     <MESSAGE value="array product" />
     <MESSAGE value="traversals through 2d arrays" />
@@ -674,7 +685,8 @@
     <MESSAGE value="print all the substrings of a given string" />
     <MESSAGE value="+ operator" />
     <MESSAGE value="covert integer input to string" />
-    <option name="LAST_COMMIT_MESSAGE" value="covert integer input to string" />
+    <MESSAGE value="total number of digits without using any loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="total number of digits without using any loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
