@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="total number of digits without using any loop">
-      <change afterPath="$PROJECT_DIR$/src/strings/interning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/modifyCharacterInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +97,7 @@
     "Application.merge2sortedArrays.executor": "Run",
     "Application.method1.executor": "Run",
     "Application.method2.executor": "Run",
+    "Application.modifyCharacterInString.executor": "Run",
     "Application.nextGreatestElement.executor": "Run",
     "Application.numberBridge.executor": "Run",
     "Application.numberPyramidPalindrome.executor": "Run",
@@ -165,7 +166,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.interning">
+  <component name="RunManager" selected="Application.modifyCharacterInString">
     <configuration name="convertIntToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.convertIntToString" />
       <module name="JavaInOneShot" />
@@ -192,8 +193,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lowerUpperCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.lowerUpperCase" />
+    <configuration name="modifyCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.modifyCharacterInString" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -233,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modifyCharacterInString" />
         <item itemvalue="Application.interning" />
         <item itemvalue="Application.convertIntToString" />
         <item itemvalue="Application.plusOperator" />
         <item itemvalue="Application.substring" />
-        <item itemvalue="Application.lowerUpperCase" />
       </list>
     </recent_temporary>
   </component>
