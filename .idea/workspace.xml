@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="total number of digits without using any loop">
-      <change afterPath="$PROJECT_DIR$/src/strings/modifyCharacterInString.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="string immutability">
+      <change afterPath="$PROJECT_DIR$/src/strings/updateEvenPositions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +149,7 @@
     "Application.transformIntoTranspose.executor": "Run",
     "Application.triangle.executor": "Run",
     "Application.twoSum.executor": "Run",
+    "Application.updateEvenPositions.executor": "Run",
     "Application.updatingVariables.executor": "Run",
     "Application.variables.executor": "Run",
     "Application.wavePrint.executor": "Run",
@@ -166,7 +167,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.modifyCharacterInString">
+  <component name="RunManager" selected="Application.updateEvenPositions">
     <configuration name="convertIntToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.convertIntToString" />
       <module name="JavaInOneShot" />
@@ -219,8 +220,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.substring" />
+    <configuration name="updateEvenPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.updateEvenPositions" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -234,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.updateEvenPositions" />
         <item itemvalue="Application.modifyCharacterInString" />
         <item itemvalue="Application.interning" />
         <item itemvalue="Application.convertIntToString" />
         <item itemvalue="Application.plusOperator" />
-        <item itemvalue="Application.substring" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742555259990</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="string immutability">
+      <option name="closed" value="true" />
+      <created>1742574287515</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1742574287515</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -662,7 +671,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="merging of 2 sorted arrays" />
     <MESSAGE value="array product" />
     <MESSAGE value="traversals through 2d arrays" />
     <MESSAGE value="array of arrays and initialisation of 2d array" />
@@ -687,7 +695,8 @@
     <MESSAGE value="+ operator" />
     <MESSAGE value="covert integer input to string" />
     <MESSAGE value="total number of digits without using any loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="total number of digits without using any loop" />
+    <MESSAGE value="string immutability" />
+    <option name="LAST_COMMIT_MESSAGE" value="string immutability" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
