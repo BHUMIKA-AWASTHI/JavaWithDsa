@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="input and update positions in a string">
-      <change afterPath="$PROJECT_DIR$/src/strings/equals.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="equals() vs ==">
+      <change afterPath="$PROJECT_DIR$/src/strings/inputStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/stringBuilderFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/stringBuilderInJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +139,8 @@
     "Application.starTriangleVerticallyFlipped.executor": "Run",
     "Application.starTriangleVerticallyFlippedAlternate.executor": "Run",
     "Application.starTriangleVerticallyFlippedComposite.executor": "Run",
+    "Application.stringBuilderFunctions.executor": "Run",
+    "Application.stringBuilderInJava.executor": "Run",
     "Application.substring.executor": "Run",
     "Application.sumOf2dArray.executor": "Run",
     "Application.sumOf2num.executor": "Run",
@@ -171,20 +175,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.equals">
-    <configuration name="convertIntToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.convertIntToString" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.stringBuilderFunctions">
     <configuration name="equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.equals" />
       <module name="JavaInOneShot" />
@@ -198,8 +189,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.interning" />
+    <configuration name="modifyCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.modifyCharacterInString" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +202,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modifyCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.modifyCharacterInString" />
+    <configuration name="stringBuilderFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.stringBuilderFunctions" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stringBuilderInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.stringBuilderInJava" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -239,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stringBuilderFunctions" />
+        <item itemvalue="Application.stringBuilderInJava" />
         <item itemvalue="Application.equals" />
         <item itemvalue="Application.updateEvenPositions" />
         <item itemvalue="Application.modifyCharacterInString" />
-        <item itemvalue="Application.interning" />
-        <item itemvalue="Application.convertIntToString" />
       </list>
     </recent_temporary>
   </component>
@@ -255,14 +259,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00002" summary="star plus pattern">
-      <option name="closed" value="true" />
-      <created>1736684605125</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1736684605125</updated>
     </task>
     <task id="LOCAL-00003" summary="star cross pattern">
       <option name="closed" value="true" />
@@ -648,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742628663944</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="equals() vs ==">
+      <option name="closed" value="true" />
+      <created>1743267791175</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1743267791176</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -675,7 +679,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="traversals through 2d arrays" />
     <MESSAGE value="array of arrays and initialisation of 2d array" />
     <MESSAGE value="store marks and roll no in 2d array" />
     <MESSAGE value="finding largest element in 2d array" />
@@ -700,7 +703,8 @@
     <MESSAGE value="total number of digits without using any loop" />
     <MESSAGE value="string immutability" />
     <MESSAGE value="input and update positions in a string" />
-    <option name="LAST_COMMIT_MESSAGE" value="input and update positions in a string" />
+    <MESSAGE value="equals() vs ==" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals() vs ==" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
