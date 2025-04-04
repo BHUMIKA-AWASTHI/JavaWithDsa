@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="append()">
-      <change afterPath="$PROJECT_DIR$/src/strings/reverseEachWordInSentence.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="reverse()">
+      <change afterPath="$PROJECT_DIR$/src/strings/sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,135 +49,135 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayList2D.executor": "Run",
-    "Application.GP.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.absoluteNum.executor": "Run",
-    "Application.add2Matrices.executor": "Run",
-    "Application.alphabetSquare.executor": "Run",
-    "Application.alphabetTriangleVerticallyFlipped.executor": "Run",
-    "Application.append.executor": "Run",
-    "Application.arrayListsAdd.executor": "Run",
-    "Application.arrayProduct.executor": "Run",
-    "Application.ascii.executor": "Run",
-    "Application.basicDeclaration.executor": "Run",
-    "Application.basicSyntax.executor": "Run",
-    "Application.basicsOfArrayList.executor": "Run",
-    "Application.basicsOfLoops.executor": "Run",
-    "Application.binaryTriangle.executor": "Run",
-    "Application.builtInMethods.executor": "Run",
-    "Application.builtInStringMethods.executor": "Run",
-    "Application.compositeNum.executor": "Run",
-    "Application.convertIntToString.executor": "Run",
-    "Application.copyOfArray.executor": "Run",
-    "Application.countDigits.executor": "Run",
-    "Application.countVowels.executor": "Run",
-    "Application.deleteAndInsert.executor": "Run",
-    "Application.dutchFlagAlgorithm.executor": "Run",
-    "Application.equals.executor": "Run",
-    "Application.evenNumFrom1to100.executor": "Run",
-    "Application.evenOdd.executor": "Run",
-    "Application.fiveOrThree.executor": "Run",
-    "Application.floydTriangle.executor": "Run",
-    "Application.forEach.executor": "Run",
-    "Application.greatestOf3Nested.executor": "Run",
-    "Application.greatestOf3num.executor": "Run",
-    "Application.helloWorld.executor": "Run",
-    "Application.howLoopWorks.executor": "Run",
-    "Application.indexOf.executor": "Run",
-    "Application.initialiseArray.executor": "Run",
-    "Application.inputClass.executor": "Run",
-    "Application.inputString.executor": "Run",
-    "Application.interning.executor": "Run",
-    "Application.linearSearch.executor": "Run",
-    "Application.lowerUpperCase.executor": "Run",
-    "Application.marks.executor": "Run",
-    "Application.matrixMultiplication.executor": "Run",
-    "Application.maxIn2dArray.executor": "Run",
-    "Application.maxInArray.executor": "Run",
-    "Application.merge2sortedArrays.executor": "Run",
-    "Application.method1.executor": "Run",
-    "Application.method2.executor": "Run",
-    "Application.modifyCharacterInString.executor": "Run",
-    "Application.nextGreatestElement.executor": "Run",
-    "Application.numberBridge.executor": "Run",
-    "Application.numberPyramidPalindrome.executor": "Run",
-    "Application.numberSpiral.executor": "Run",
-    "Application.numberSquare.executor": "Run",
-    "Application.numberTriangle.executor": "Run",
-    "Application.numberTriangleVerticallyFlipped.executor": "Run",
-    "Application.oddNumTriangle.executor": "Run",
-    "Application.oddNumbersPrint.executor": "Run",
-    "Application.onePassSolution.executor": "Run",
-    "Application.outputOfArray.executor": "Run",
-    "Application.outputUsingNestedLoops.executor": "Run",
-    "Application.passingArrayToMethods.executor": "Run",
-    "Application.plusOperator.executor": "Run",
-    "Application.print1toN.executor": "Run",
-    "Application.profitLoss.executor": "Run",
-    "Application.reverseArray.executor": "Run",
-    "Application.reverseEachWordInSentence.executor": "Run",
-    "Application.reverseOfArrayUsing2Pointers.executor": "Run",
-    "Application.rhombus.executor": "Run",
-    "Application.rollNo.executor": "Run",
-    "Application.rotateMatrixBy90DegreeClockwise.executor": "Run",
-    "Application.rowWiseAndColumnWisePrinting.executor": "Run",
-    "Application.sort0sAnd1s.executor": "Run",
-    "Application.spiralPrint.executor": "Run",
-    "Application.starBridge.executor": "Run",
-    "Application.starCross.executor": "Run",
-    "Application.starDiamond.executor": "Run",
-    "Application.starPlus.executor": "Run",
-    "Application.starPyramid.executor": "Run",
-    "Application.starPyramidMethod2.executor": "Run",
-    "Application.starRectangle.executor": "Run",
-    "Application.starSquare.executor": "Run",
-    "Application.starTriangle.executor": "Run",
-    "Application.starTriangleFlipped.executor": "Run",
-    "Application.starTriangleHorizontallyFlipped.executor": "Run",
-    "Application.starTriangleVerticallyFlipped.executor": "Run",
-    "Application.starTriangleVerticallyFlippedAlternate.executor": "Run",
-    "Application.starTriangleVerticallyFlippedComposite.executor": "Run",
-    "Application.stringBuilderFunctions.executor": "Run",
-    "Application.stringBuilderInJava.executor": "Run",
-    "Application.substring.executor": "Run",
-    "Application.sumOf2dArray.executor": "Run",
-    "Application.sumOf2num.executor": "Run",
-    "Application.sumOfArray.executor": "Run",
-    "Application.sumOfDigits.executor": "Run",
-    "Application.switchStatement.executor": "Run",
-    "Application.table.executor": "Run",
-    "Application.tableOfN.executor": "Run",
-    "Application.ternary.executor": "Run",
-    "Application.threeDigitNum.executor": "Run",
-    "Application.toggleChars.executor": "Run",
-    "Application.transformIntoTranspose.executor": "Run",
-    "Application.triangle.executor": "Run",
-    "Application.twoSum.executor": "Run",
-    "Application.updateEvenPositions.executor": "Run",
-    "Application.updatingVariables.executor": "Run",
-    "Application.variables.executor": "Run",
-    "Application.wavePrint.executor": "Run",
-    "Application.whileLoop.executor": "Run",
-    "Application.whyStrings.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/.jdks",
-    "onboarding.tips.debug.path": "E:/JavaInOneShot/src/Main.java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayList2D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.absoluteNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.add2Matrices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.alphabetSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.alphabetTriangleVerticallyFlipped.executor&quot;: &quot;Run&quot;,
+    &quot;Application.append.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrayListsAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrayProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ascii.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basicDeclaration.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basicSyntax.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basicsOfArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basicsOfLoops.executor&quot;: &quot;Run&quot;,
+    &quot;Application.binaryTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.builtInMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.builtInStringMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.compositeNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.convertIntToString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.copyOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countVowels.executor&quot;: &quot;Run&quot;,
+    &quot;Application.deleteAndInsert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dutchFlagAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.equals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.evenNumFrom1to100.executor&quot;: &quot;Run&quot;,
+    &quot;Application.evenOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fiveOrThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.floydTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.forEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.greatestOf3Nested.executor&quot;: &quot;Run&quot;,
+    &quot;Application.greatestOf3num.executor&quot;: &quot;Run&quot;,
+    &quot;Application.helloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.howLoopWorks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.indexOf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.initialiseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inputClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inputString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.interning.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lowerUpperCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.marks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.matrixMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxIn2dArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.merge2sortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.method1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.method2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modifyCharacterInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nextGreatestElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numberBridge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numberPyramidPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numberSpiral.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numberSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numberTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numberTriangleVerticallyFlipped.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oddNumTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oddNumbersPrint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.onePassSolution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.outputOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.outputUsingNestedLoops.executor&quot;: &quot;Run&quot;,
+    &quot;Application.passingArrayToMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.plusOperator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.print1toN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.profitLoss.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reverseEachWordInSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reverseOfArrayUsing2Pointers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rhombus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rollNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rotateMatrixBy90DegreeClockwise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rowWiseAndColumnWisePrinting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sort0sAnd1s.executor&quot;: &quot;Run&quot;,
+    &quot;Application.spiralPrint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starBridge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starCross.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starDiamond.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starPlus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starPyramidMethod2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starRectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starTriangleFlipped.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starTriangleHorizontallyFlipped.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starTriangleVerticallyFlipped.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starTriangleVerticallyFlippedAlternate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.starTriangleVerticallyFlippedComposite.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringBuilderFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringBuilderInJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.substring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOf2dArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOf2num.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumOfDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.switchStatement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.table.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tableOfN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ternary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.threeDigitNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.toggleChars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.transformIntoTranspose.executor&quot;: &quot;Run&quot;,
+    &quot;Application.triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.twoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.updateEvenPositions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.updatingVariables.executor&quot;: &quot;Run&quot;,
+    &quot;Application.variables.executor&quot;: &quot;Run&quot;,
+    &quot;Application.wavePrint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.whileLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.whyStrings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/.jdks&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/JavaInOneShot/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.reverseEachWordInSentence">
+}</component>
+  <component name="RunManager" selected="Application.sorting">
     <configuration name="append" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.append" />
       <module name="JavaInOneShot" />
@@ -230,8 +230,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toggleChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.toggleChars" />
+    <configuration name="sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.sorting" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -245,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sorting" />
         <item itemvalue="Application.reverseEachWordInSentence" />
         <item itemvalue="Application.convertIntToString" />
         <item itemvalue="Application.deleteAndInsert" />
         <item itemvalue="Application.append" />
-        <item itemvalue="Application.toggleChars" />
       </list>
     </recent_temporary>
   </component>
@@ -261,14 +261,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00006" summary="composite patterns">
-      <option name="closed" value="true" />
-      <created>1736690867543</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1736690867543</updated>
     </task>
     <task id="LOCAL-00007" summary="number pyramid palindrome and star bridge">
       <option name="closed" value="true" />
@@ -654,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743270693960</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="reverse()">
+      <option name="closed" value="true" />
+      <created>1743784139448</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1743784139448</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -681,7 +681,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sum of elements in 2d array" />
     <MESSAGE value="adding 2 matrices" />
     <MESSAGE value="printing the transpose of matrix" />
     <MESSAGE value="matrix rotation by 90° clockwise" />
@@ -706,7 +705,8 @@
     <MESSAGE value="string builder" />
     <MESSAGE value="input a string and toggle" />
     <MESSAGE value="append()" />
-    <option name="LAST_COMMIT_MESSAGE" value="append()" />
+    <MESSAGE value="reverse()" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverse()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
