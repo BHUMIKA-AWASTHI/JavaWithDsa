@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="array of string">
-      <change afterPath="$PROJECT_DIR$/src/strings/frequencyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="print the character with max occurence" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +79,7 @@
     "Application.fiveOrThree.executor": "Run",
     "Application.floydTriangle.executor": "Run",
     "Application.forEach.executor": "Run",
+    "Application.frequencyArray.executor": "Run",
     "Application.greatestOf3Nested.executor": "Run",
     "Application.greatestOf3num.executor": "Run",
     "Application.helloWorld.executor": "Run",
@@ -262,14 +260,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00009" summary="star diamond">
-      <option name="closed" value="true" />
-      <created>1736780558460</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1736780558460</updated>
     </task>
     <task id="LOCAL-00010" summary="number spiral">
       <option name="closed" value="true" />
@@ -655,7 +645,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743786177418</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="print the character with max occurence">
+      <option name="closed" value="true" />
+      <created>1743787257181</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1743787257181</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -682,7 +680,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="print matrix in waveform" />
     <MESSAGE value="spiral form matrix" />
     <MESSAGE value="2d arrayList basic stl functions" />
     <MESSAGE value="multiplication of matrix" />
@@ -707,7 +704,8 @@
     <MESSAGE value="sorting a string" />
     <MESSAGE value="&#10;array of string" />
     <MESSAGE value="array of string" />
-    <option name="LAST_COMMIT_MESSAGE" value="array of string" />
+    <MESSAGE value="print the character with max occurence" />
+    <option name="LAST_COMMIT_MESSAGE" value="print the character with max occurence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
