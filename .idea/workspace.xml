@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="built in sorting">
-      <change afterPath="$PROJECT_DIR$/src/basicSorting/bubbleSort.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="bubble sorting">
+      <change afterPath="$PROJECT_DIR$/src/basicSorting/selectionsort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +133,7 @@
     "Application.rollNo.executor": "Run",
     "Application.rotateMatrixBy90DegreeClockwise.executor": "Run",
     "Application.rowWiseAndColumnWisePrinting.executor": "Run",
+    "Application.selectionsort.executor": "Run",
     "Application.sort0sAnd1s.executor": "Run",
     "Application.sorting.executor": "Run",
     "Application.spiralPrint.executor": "Run",
@@ -188,7 +189,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.bubbleSort">
+  <component name="RunManager" selected="Application.selectionsort">
     <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicSorting.bubbleSort" />
       <module name="JavaInOneShot" />
@@ -228,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.maxValue" />
+    <configuration name="selectionsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicSorting.selectionsort" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="basicSorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.selectionsort" />
         <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.builtInSort" />
         <item itemvalue="Application.checkIfArrayIsSorted" />
         <item itemvalue="Application.stringCompression" />
-        <item itemvalue="Application.maxValue" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +273,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00015" summary="arraylists in java">
-      <option name="closed" value="true" />
-      <created>1738402903081</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1738402903081</updated>
     </task>
     <task id="LOCAL-00016" summary="basic operations on arraylists">
       <option name="closed" value="true" />
@@ -665,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747562435002</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="bubble sorting">
+      <option name="closed" value="true" />
+      <created>1747565907277</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1747565907277</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -692,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="declaration of strings and taking input" />
     <MESSAGE value="built in string methods" />
     <MESSAGE value="counting vowels in a string" />
     <MESSAGE value="indexOf() and compareTo()" />
@@ -717,7 +717,8 @@
     <MESSAGE value="in a string with digits, find the string with the maximum value" />
     <MESSAGE value="sorted array or not?" />
     <MESSAGE value="built in sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="built in sorting" />
+    <MESSAGE value="bubble sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
