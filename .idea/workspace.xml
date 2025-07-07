@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="insertion sort">
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="insertion sort is a stable sort">
+      <change afterPath="$PROJECT_DIR$/src/binarySearch/bs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicSorting/insertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicSorting/insertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,7 @@
     "Application.basicsOfArrayList.executor": "Run",
     "Application.basicsOfLoops.executor": "Run",
     "Application.binaryTriangle.executor": "Run",
+    "Application.bs.executor": "Run",
     "Application.bubbleSort.executor": "Run",
     "Application.builtInMethods.executor": "Run",
     "Application.builtInSort.executor": "Run",
@@ -190,7 +191,20 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.insertionSort">
+  <component name="RunManager" selected="Application.bs">
+    <configuration name="bs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarySearch.bs" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicSorting.bubbleSort" />
       <module name="JavaInOneShot" />
@@ -206,19 +220,6 @@
     </configuration>
     <configuration name="builtInSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicSorting.builtInSort" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicSorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="checkIfArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicSorting.checkIfArrayIsSorted" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -258,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bs" />
         <item itemvalue="Application.insertionSort" />
         <item itemvalue="Application.selectionsort" />
         <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.builtInSort" />
-        <item itemvalue="Application.checkIfArrayIsSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -274,14 +275,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00018" summary="reverse of the array by general method and 2 pointer method">
-      <option name="closed" value="true" />
-      <created>1739004799253</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1739004799253</updated>
     </task>
     <task id="LOCAL-00019" summary="reverse of the array">
       <option name="closed" value="true" />
@@ -667,7 +660,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751700729163</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="insertion sort is a stable sort">
+      <option name="closed" value="true" />
+      <created>1751907827034</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1751907827034</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -694,7 +695,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="indexOf() and compareTo()" />
     <MESSAGE value="basic functions" />
     <MESSAGE value="toLowerCase and concat function" />
     <MESSAGE value="substring(i,j)" />
@@ -719,7 +719,8 @@
     <MESSAGE value="bubble sorting" />
     <MESSAGE value="selection sorting" />
     <MESSAGE value="insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="insertion sort" />
+    <MESSAGE value="insertion sort is a stable sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertion sort is a stable sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
