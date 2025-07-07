@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="selection sorting">
-      <change afterPath="$PROJECT_DIR$/src/basicSorting/insertionSort.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="insertion sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicSorting/insertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicSorting/insertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,14 +274,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00017" summary="two sum question">
-      <option name="closed" value="true" />
-      <created>1738941583804</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1738941583804</updated>
     </task>
     <task id="LOCAL-00018" summary="reverse of the array by general method and 2 pointer method">
       <option name="closed" value="true" />
@@ -667,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749994680624</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="insertion sort">
+      <option name="closed" value="true" />
+      <created>1751700729161</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1751700729163</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -694,7 +694,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="counting vowels in a string" />
     <MESSAGE value="indexOf() and compareTo()" />
     <MESSAGE value="basic functions" />
     <MESSAGE value="toLowerCase and concat function" />
@@ -719,7 +718,8 @@
     <MESSAGE value="built in sorting" />
     <MESSAGE value="bubble sorting" />
     <MESSAGE value="selection sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="selection sorting" />
+    <MESSAGE value="insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertion sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

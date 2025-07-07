@@ -1,5 +1,5 @@
 package basicSorting;
-
+// insertion sort is a stable sort
 public class insertionSort {
     public static void print(int[] arr){
         for(int ele: arr){
