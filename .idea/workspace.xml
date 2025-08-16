@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="upper bound">
-      <change afterPath="$PROJECT_DIR$/src/recursion/functionCalls.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="function calls">
+      <change afterPath="$PROJECT_DIR$/src/recursion/factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +86,12 @@
     "Application.equals.executor": "Run",
     "Application.evenNumFrom1to100.executor": "Run",
     "Application.evenOdd.executor": "Run",
+    "Application.factorial.executor": "Run",
     "Application.fiveOrThree.executor": "Run",
     "Application.floydTriangle.executor": "Run",
     "Application.forEach.executor": "Run",
     "Application.frequencyArray.executor": "Run",
-    "Application.functionCalls.executor": "Run",
+    "Application.functionCalls.executor": "Debug",
     "Application.greatestOf3Nested.executor": "Run",
     "Application.greatestOf3num.executor": "Run",
     "Application.helloWorld.executor": "Run",
@@ -191,10 +192,10 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.functionCalls">
+  <component name="RunManager" selected="Application.factorial">
     <configuration name="bs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.bs" />
       <module name="JavaInOneShot" />
@@ -208,8 +209,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functionCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.functionCalls" />
+    <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.factorial" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -221,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="insertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicSorting.insertionSort" />
+    <configuration name="functionCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.functionCalls" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicSorting.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.factorial" />
         <item itemvalue="Application.functionCalls" />
         <item itemvalue="Application.lowerBound" />
         <item itemvalue="Application.upperBound" />
         <item itemvalue="Application.bs" />
-        <item itemvalue="Application.insertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -278,14 +279,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00022" summary="merging of 2 sorted arrays">
-      <option name="closed" value="true" />
-      <created>1739196467323</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1739196467323</updated>
     </task>
     <task id="LOCAL-00023" summary="array product">
       <option name="closed" value="true" />
@@ -671,13 +664,43 @@
       <option name="project" value="LOCAL" />
       <updated>1751943403358</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="function calls">
+      <option name="closed" value="true" />
+      <created>1755365144617</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1755365144618</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e4ffc297-d85a-4e10-a73e-e18fc69d477f" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="e4ffc297-d85a-4e10-a73e-e18fc69d477f">
           <value>
             <State>
               <option name="FILTERS">
@@ -698,7 +721,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="print all the substrings of a given string" />
     <MESSAGE value="+ operator" />
     <MESSAGE value="covert integer input to string" />
     <MESSAGE value="total number of digits without using any loop" />
@@ -723,7 +745,8 @@
     <MESSAGE value="binary search" />
     <MESSAGE value="lower bound" />
     <MESSAGE value="upper bound" />
-    <option name="LAST_COMMIT_MESSAGE" value="upper bound" />
+    <MESSAGE value="function calls" />
+    <option name="LAST_COMMIT_MESSAGE" value="function calls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
