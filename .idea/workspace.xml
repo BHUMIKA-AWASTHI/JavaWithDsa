@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="lower bound">
-      <change afterPath="$PROJECT_DIR$/src/binarySearch/upperBound.java" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="upper bound">
+      <change afterPath="$PROJECT_DIR$/src/recursion/functionCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,7 @@
     "Application.floydTriangle.executor": "Run",
     "Application.forEach.executor": "Run",
     "Application.frequencyArray.executor": "Run",
+    "Application.functionCalls.executor": "Run",
     "Application.greatestOf3Nested.executor": "Run",
     "Application.greatestOf3num.executor": "Run",
     "Application.helloWorld.executor": "Run",
@@ -172,6 +174,7 @@
     "Application.twoSum.executor": "Run",
     "Application.updateEvenPositions.executor": "Run",
     "Application.updatingVariables.executor": "Run",
+    "Application.upperBound.executor": "Run",
     "Application.variables.executor": "Run",
     "Application.wavePrint.executor": "Run",
     "Application.whileLoop.executor": "Run",
@@ -191,13 +194,26 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.lowerBound">
+  <component name="RunManager" selected="Application.functionCalls">
     <configuration name="bs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.bs" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functionCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.functionCalls" />
+      <module name="JavaInOneShot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,19 +247,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selectionsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicSorting.selectionsort" />
-      <module name="JavaInOneShot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicSorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="upperBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.upperBound" />
       <module name="JavaInOneShot" />
@@ -259,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.functionCalls" />
         <item itemvalue="Application.lowerBound" />
         <item itemvalue="Application.upperBound" />
         <item itemvalue="Application.bs" />
         <item itemvalue="Application.insertionSort" />
-        <item itemvalue="Application.selectionsort" />
       </list>
     </recent_temporary>
   </component>
@@ -275,14 +278,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00021" summary="sort the arrays of 0s &amp; 1s &amp; 2s">
-      <option name="closed" value="true" />
-      <created>1739106086611</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1739106086612</updated>
     </task>
     <task id="LOCAL-00022" summary="merging of 2 sorted arrays">
       <option name="closed" value="true" />
@@ -668,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751943167729</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="upper bound">
+      <option name="closed" value="true" />
+      <created>1751943403358</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1751943403358</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -695,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="substring(i,j)" />
     <MESSAGE value="print all the substrings of a given string" />
     <MESSAGE value="+ operator" />
     <MESSAGE value="covert integer input to string" />
@@ -720,7 +722,8 @@
     <MESSAGE value="insertion sort is a stable sort" />
     <MESSAGE value="binary search" />
     <MESSAGE value="lower bound" />
-    <option name="LAST_COMMIT_MESSAGE" value="lower bound" />
+    <MESSAGE value="upper bound" />
+    <option name="LAST_COMMIT_MESSAGE" value="upper bound" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
