@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="printing numbers from 1 to n">
-      <change afterPath="$PROJECT_DIR$/src/recursion/printIncreasingAfterCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="print 1 to n (after recursive call)">
+      <change afterPath="$PROJECT_DIR$/src/recursion/parameterisedSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.printIncreasingAfterCall">
+  <component name="RunManager" selected="Application.parameterisedSum">
     <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.factorial" />
       <module name="JavaInOneShot" />
@@ -212,8 +211,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functionCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.functionCalls" />
+    <configuration name="parameterisedSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.parameterisedSum" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -266,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.parameterisedSum" />
         <item itemvalue="Application.printIncreasingAfterCall" />
         <item itemvalue="Application.printIncreasing" />
         <item itemvalue="Application.printDecreasing" />
         <item itemvalue="Application.factorial" />
-        <item itemvalue="Application.functionCalls" />
       </list>
     </recent_temporary>
   </component>
@@ -282,14 +281,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00027" summary="finding largest element in 2d array">
-      <option name="closed" value="true" />
-      <created>1739945251811</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1739945251811</updated>
     </task>
     <task id="LOCAL-00028" summary="sum of elements in 2d array">
       <option name="closed" value="true" />
@@ -675,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755420991034</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="print 1 to n (after recursive call)">
+      <option name="closed" value="true" />
+      <created>1755421957064</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1755421957064</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -724,7 +723,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="input and update positions in a string" />
     <MESSAGE value="equals() vs ==" />
     <MESSAGE value="string builder" />
     <MESSAGE value="input a string and toggle" />
@@ -749,7 +747,8 @@
     <MESSAGE value="printing numbers from n to 1" />
     <MESSAGE value="comments" />
     <MESSAGE value="printing numbers from 1 to n" />
-    <option name="LAST_COMMIT_MESSAGE" value="printing numbers from 1 to n" />
+    <MESSAGE value="print 1 to n (after recursive call)" />
+    <option name="LAST_COMMIT_MESSAGE" value="print 1 to n (after recursive call)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
