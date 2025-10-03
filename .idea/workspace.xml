@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="printing sum 1 to n (parameterised)" />
+    <list default="true" id="2bd80b08-4f18-4a48-9f5b-18002b87a777" name="Changes" comment="sum of 1 to n (return type)">
+      <change afterPath="$PROJECT_DIR$/src/recursion/powerLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,6 +130,7 @@
     "Application.passingArrayToMethods.executor": "Run",
     "Application.passingStringsTofunctions.executor": "Run",
     "Application.plusOperator.executor": "Run",
+    "Application.powerLinear.executor": "Run",
     "Application.print1toN.executor": "Run",
     "Application.printDecreasing.executor": "Run",
     "Application.printIncreasing.executor": "Run",
@@ -196,7 +200,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.factorial">
+  <component name="RunManager" selected="Application.powerLinear">
     <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.factorial" />
       <module name="JavaInOneShot" />
@@ -223,8 +227,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printDecreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.printDecreasing" />
+    <configuration name="powerLinear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.powerLinear" />
       <module name="JavaInOneShot" />
       <extension name="coverage">
         <pattern>
@@ -264,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.powerLinear" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.parameterisedSum" />
         <item itemvalue="Application.printIncreasingAfterCall" />
         <item itemvalue="Application.printIncreasing" />
-        <item itemvalue="Application.printDecreasing" />
       </list>
     </recent_temporary>
   </component>
@@ -280,22 +284,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732381979807</updated>
-    </task>
-    <task id="LOCAL-00029" summary="adding 2 matrices">
-      <option name="closed" value="true" />
-      <created>1739946122326</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1739946122326</updated>
-    </task>
-    <task id="LOCAL-00030" summary="printing the transpose of matrix">
-      <option name="closed" value="true" />
-      <created>1739963414865</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1739963414865</updated>
     </task>
     <task id="LOCAL-00031" summary="matrix rotation by 90° clockwise">
       <option name="closed" value="true" />
@@ -673,7 +661,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755422481382</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="0 factorial problem fixed">
+      <option name="closed" value="true" />
+      <created>1755422631104</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1755422631104</updated>
+    </task>
+    <task id="LOCAL-00079" summary="sum of 1 to n (return type)">
+      <option name="closed" value="true" />
+      <created>1755422875912</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1755422875913</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -722,8 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="string builder" />
-    <MESSAGE value="input a string and toggle" />
     <MESSAGE value="append()" />
     <MESSAGE value="reverse()" />
     <MESSAGE value="sorting a string" />
@@ -747,7 +749,9 @@
     <MESSAGE value="printing numbers from 1 to n" />
     <MESSAGE value="print 1 to n (after recursive call)" />
     <MESSAGE value="printing sum 1 to n (parameterised)" />
-    <option name="LAST_COMMIT_MESSAGE" value="printing sum 1 to n (parameterised)" />
+    <MESSAGE value="0 factorial problem fixed" />
+    <MESSAGE value="sum of 1 to n (return type)" />
+    <option name="LAST_COMMIT_MESSAGE" value="sum of 1 to n (return type)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
